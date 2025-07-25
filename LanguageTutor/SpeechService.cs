@@ -6,6 +6,7 @@ namespace LanguageTutor
 {
     public class SpeechService
     {
+        #region Speech Service properties
         public string SpeechKey { get; set; }
 
         public string Region { get; set; }
@@ -21,6 +22,7 @@ namespace LanguageTutor
         public string VoiceName { get; set; }
 
         public SpeechConfig SpeechConfig { get; set; }
+        #endregion
 
         public SpeechService()
         {
